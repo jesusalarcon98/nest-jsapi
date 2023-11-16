@@ -7,4 +7,4 @@ import { PrismaModule } from './prisma/prisma.module';
 @Module({
   imports: [AuthModule, UserModule, BookmarkModule, PrismaModule],
 })
-export class AppModule {}
+export class AppModule { }
